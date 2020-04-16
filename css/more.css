@@ -1,0 +1,154 @@
+/*媒体查询*/
+html {
+	/*注意
+		当前的默认字体大小所属范围是小于等于370px，也包括320px（逻辑像素）
+	*/
+	font-size: 10px;
+}
+
+div {
+	border: none;
+}
+
+@media only screen and (min-width: 371px){
+    html {font-size: 12px !important;}
+  }
+@media only screen and (min-width: 401px){
+  html {font-size: 13px !important;}
+}
+@media only screen and (min-width: 428px){
+  html {font-size: 14px !important;}
+}
+@media only screen and (min-width: 481px){
+  html {font-size: 15px !important;}
+}
+@media only screen and (min-width: 569px){
+  html {font-size: 16px !important;}
+}
+
+/* 网页顶部 */
+header {
+	width: 100%;
+	height: 4.65rem;
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: flex;
+	background-color: white;
+}
+
+header .left_a1 {
+	float: left;
+	width: 50%;
+	height: 2.65rem;
+	text-align: center;
+	line-height: 2.65rem;
+	border: 1px solid grey;
+	margin-top: 1rem;
+	margin-left: 0.5rem;
+}
+
+header .right_a1 {
+	float: left;
+	width: 50%;
+	height: 2.65rem;
+	text-align: center;
+	line-height: 2.65rem;
+	border: 1px solid grey;
+	margin-top: 1rem;
+}
+nav{
+	position:fixed;
+	bottom:0;
+	left:0;
+	width:100%;
+	height:4.3rem;
+	border-top:1px solid gray;
+	background: white;
+	display: flex;
+	justify-content: space-around;
+	font-size: 1.2rem;
+}
+header>div.bb{
+	background-color: #5f646e;
+    color: white;
+}
+a{
+	display: block;
+}
+.a1{
+	color: black;
+}
+.nav-item{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.nav-item span{
+	font-size: 1.7rem;
+}
+@media screen and (width:375px){
+	.nav-item{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+}
+#section1{
+	margin-top: 4.65rem;
+	width: 100%;
+	/* height: 60rem; */
+	display: none;
+	
+}
+ h2{
+	width: 95%;
+	height: 3rem;
+	margin-left: 1rem;
+}
+.div1{
+	margin: 0 auto;
+	width: 95%;
+	height: 100%;
+	border: 1px solid grey;
+	
+}
+.div2{
+	display: flex;
+	justify-content: space-around;
+	font-size: 1.2rem;
+}
+
+.div3{
+	margin: 0 auto;
+	width: 95%;
+	height: 100%;
+	border: 1px solid grey;
+	
+}
+.sec-item{
+	height: 8rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.sec-item img{
+	width: 3.36rem;
+	height: 3.36rem;
+}
+@media screen and (width:375px){
+	.sec-item{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+}
+#section2{
+	margin-top: 4.65rem;
+	width: 100%;
+	/* height: 60rem; */
+	/* display: none; */
+	
+}

@@ -1,0 +1,281 @@
+html{
+    font-size:10px;
+}
+*{
+	padding: 0;
+	margin: 0 auto;
+}
+@media only screen and (min-width: 371px){
+    html {font-size: 12px !important;}
+  }
+@media only screen and (min-width: 401px){
+  html {font-size: 13px !important;}
+}
+@media only screen and (min-width: 428px){
+  html {font-size: 14px !important;}
+}
+@media only screen and (min-width: 481px){
+  html {font-size: 15px !important;}
+}
+@media only screen and (min-width: 569px){
+  html {font-size: 16px !important;}
+}
+
+body{
+	 background: #F4F4F4!important;
+	 overflow: scroll;
+	 overflow-x: hidden;
+}
+.container{
+	width: 100%;
+}
+.a{
+	display: none!important;
+}
+.content{
+	width: 100%;
+	height: 3.75rem;
+}
+.content>div{
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+.content>div>img{
+	width: 100%;
+	height: 100%;
+}
+.mp{
+    position: absolute;
+    left: 50%;
+    z-index: 1;
+    top: 50%;
+    width: 13rem;
+    height: 13rem;
+    transform: translate(-50%,-50%);
+    background: url(../shop/10.png);
+    background: contain;
+}
+.fanhui{
+	position: absolute;
+	display: block;
+	top: 1rem;
+	left: 1rem;
+	width: 3.3rem;
+	height: 3.3rem;
+}
+.fanhui>span{
+	font-size: 4rem;
+	color: white;
+}
+.gouwu{
+	position: absolute;
+	display: block;
+	top: 0.7rem;
+	right:2rem;
+	width: 3.3rem;
+	height: 3.3rem;
+}
+.gouwu>span{
+	font-size: 4rem;
+	color: white;
+}
+
+.topa{
+	width: 100%;
+	height: 16rem;
+	background: white;
+	margin-top: -0.4rem;
+}
+.top-center{
+	border: 1px solid transparent;
+	width: 90%;
+	height: 90%;
+	margin-top: 0.5rem;
+}
+.top1{
+	width: 100%;
+	height: 2.4rem;
+	line-height: 2.4rem;
+	margin-top: 1.8rem;
+}
+.top-center>p{
+	font-size: 1rem;
+}
+.top-center>p>span{
+	text-decoration: line-through;
+}
+.top2{
+	position: relative;
+	width: 90%;
+	height: 4rem;
+	margin-left: 0;
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+.fx{
+	position: absolute;
+	width: 4.8rem;
+	height: 2.4rem;
+	right: -5rem;
+	top: 1rem;
+	border-radius: 10px 0 0 10px;
+	background: #F4F4F4;
+}
+.fx>i{
+	font-size: 1.2rem;
+}
+.top3{
+	width: 100%;
+	height: 4rem;
+	font-size: 1.3rem;
+	display: flex;
+	color: #969896;
+	line-height: 4rem;
+	margin-top: 1rem;
+}
+.topb{
+	width: 100%;
+	height: 6.9rem;
+}
+.span1{
+	font-size: 1.5rem;
+	color: #FF5000;
+}
+.span2{
+	font-size:2.4rem;
+	color: #FF5000;
+}
+.top1>i{
+	font-size: 0.96rem;
+	color: #FF5000;
+}
+.topb{
+	background: white;
+	margin-top: 1rem;
+}
+.top4{
+	border: 1px solid transparent;
+	width: 90%;
+	height: 6.4rem;
+	font-size: 1.3rem;
+}
+.img2{
+	vertical-align: middle;
+}
+.span1{
+	color: #FE5A09;
+}
+.top4-1{
+	display: flex;
+	width: 100%;
+	height: 2rem;
+	line-height: 2rem;
+	margin-top: 1rem;
+}
+.top4-2{
+	width: 65%;
+	height: 3.5rem;
+}
+.top4-2>img{
+	width: 100%;
+	height: 70%;
+	margin-top: 0.5rem;
+}
+.img3{
+	vertical-align: middle;
+}
+.top5{
+	margin-top: 1rem;
+	width: 100%;
+	height: 4rem;
+	background: white;
+}
+.top5-1{
+	position: relative;
+	width: 90%;
+	height: 100%;
+	font-size: 1.3rem;
+	line-height: 4rem;
+}
+.img5{
+	position: absolute;
+	right: 0;
+	top: 1rem;
+}
+.top6{
+	margin-top: 1rem;
+	width: 100%;
+	height: 8rem;
+	background: white;
+}
+.nav-item>span{
+	font-size: 1.8rem;
+}
+.nav-item>div{
+	font-size: 1.4rem;
+}
+.top6-1,.top6-2{
+	position: relative;
+	width: 90%;
+	height: 4rem;
+	font-size: 1.3rem;
+	line-height: 4rem;
+}
+.s{
+	color: #999999;
+}
+.bottom{
+	width: 100%;
+	height: 5.5rem;
+	background: white;
+	position: fixed;
+	bottom: 0;
+}
+.top7{
+	width: 100%;
+	height: 4rem;
+	margin-top: 2rem;
+}
+.foot{
+	width: 90%;
+	height: 100%;
+	display: flex;
+}
+.bottom1{
+	width: 40%;
+	height: 100%;
+	display: flex;
+	margin-left: 0;
+	align-items: center;
+	text-align: center;
+}
+.bottom2{
+	width: 60%;
+	height: 100%;
+	display: flex;
+	margin-right: 0;
+	color: white;
+	align-items: center;
+}
+.jia1{
+	width: 50%;
+	height: 70%;
+	border-radius: 25px 0 0 25px;
+	background: #FF9C02;
+	text-align: center;
+	line-height: 3.85rem;
+	font-size: 1.4rem;
+}
+.jia1>a{
+	color: white;
+}
+.jia2{
+	width: 50%;
+	height: 70%;
+	border-radius: 0 25px 25px 0;
+	background: #FF7302;
+	text-align: center;
+	line-height: 3.85rem;
+	font-size: 1.4rem;
+}

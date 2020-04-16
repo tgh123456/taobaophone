@@ -1,0 +1,50 @@
+//轮播1
+;(function($){
+	$.fn.extend({
+		lun:function(){
+		     var num=1;
+		$(this).find(".top").mouseover(function(){
+			if(!$(".ul").is(":animated")){
+				num++;
+				$(".ul").animate({
+					top:-2.18*num+"rem"
+				},function(){
+					if(num==4){
+						num=1;
+						$(".ul").css("top",-2.18*num+"rem");
+					}
+				})
+			}
+		})
+		
+		$(this).find(".top").mouseover(function(){
+			if(!$(".ul").is(":animated")){
+				num--;
+			$(".ul").animate({
+				top:-2.18*num+"rem"
+			},function(){
+				if(num==0){
+					num=3;
+					$(".ul").css("top",-2.18*num+"rem");
+				}
+			})
+			}
+		})
+		time=setInterval(function(){
+           $(".top").mouseover();
+		},2000)
+		}
+	});
+})(jQuery);
+$(function(){
+	$(window).bind("scroll",function(){
+		if($(window).scrollTop()>100){
+			$(".shang").fadeIn();
+		}else{
+			$(".shang").fadeOut();
+		}
+	});
+	$(".shang").bind("click",function(){
+		$("html,body").animate({scrollTop:'0px'},"slow");
+	})
+});

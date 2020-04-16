@@ -1,0 +1,238 @@
+
+div{
+	border: none;
+}
+html{
+    font-size:10px;
+   
+}
+@media only screen and (min-width: 371px){
+    html {font-size: 12px !important;}
+  }
+@media only screen and (min-width: 401px){
+  html {font-size: 13px !important;}
+}
+@media only screen and (min-width: 428px){
+  html {font-size: 14px !important;}
+}
+@media only screen and (min-width: 481px){
+  html {font-size: 15px !important;}
+}
+@media only screen and (min-width: 569px){
+  html {font-size: 16px !important;}
+}
+a{
+	display: block;
+}
+.a1{
+	color: black;
+}
+
+/*网页头部*/
+header{
+	position: fixed;
+	top:0;
+	left:0;
+	width:100%;
+	/*在640px效果图上是74px高度
+		74/2=37px
+		37/10=3.7rem
+	*/
+	height:12.86rem;
+	background: #ff852a;
+
+	/*弹性布局*/
+	/* display: flex; */
+	/*justify-content: space-aroun d;
+	align-items: center ; */
+
+}
+header .Otop{
+	width: 100%;
+	height: 7.15rem;
+	font-size: 1.2rem;
+	line-height: 7.15rem;
+	justify-content: space-around;
+	color: white;
+}
+header .Otop .tou{
+	width: 4rem;
+	height: 4rem;
+	margin-left: 2rem;
+	margin-top: 2rem;
+}
+header .Otop .a1{
+	line-height: 7rem;
+}
+header .Otop .a2{
+	float: right;
+	
+}
+header .Otop .a3{
+	float: right;
+	margin-left: 2rem;
+	margin-right: 1rem;
+}
+header .Otop span{
+	font-size: 1.5rem;
+	
+}
+header .Odown{
+	width: 100%;
+	height: 5.72rem;
+	color: white;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.Odown_text{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+/*网页导航*/
+nav{
+	position:fixed;
+	bottom:0;
+	left:0;
+	width:100%;
+	height:4.3rem;
+	border-top:1px solid gray;
+	background: white;
+	display: flex;
+	justify-content: space-around;
+	font-size: 1.2rem;
+}
+.nav-item{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.nav-item span{
+	font-size: 1.7rem;
+}
+@media screen and (width:375px){
+	.nav-item{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+}
+
+/*网页主体*/
+section{
+	width:100%;
+	margin-top:12.86rem;
+	background-color: #f2f2f2;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;	
+}
+.con_1{
+	margin-top: 1rem;
+	width: 90%;
+	height: 9rem;
+	border-radius: 1rem;
+	background-color: white;
+}
+.atop{
+	height: 2.714rem;
+	width: 100%;
+	border-bottom: 1px solid grey;
+	line-height: 2.714rem ;
+}
+.atop .atop_1{
+	float: left;
+	margin-left: 1rem;
+	font-size: 1.2rem;
+	font-weight: 700;
+}
+.atop .atop_2{
+	float: right;
+	margin-right: 1rem;
+}
+.adown{
+	height: 5.43rem;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+	font-size: 1.2rem;
+	margin-top: 1rem;
+}
+.adown_text{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.adown_text span{
+	font-size: 1.7rem;
+	color:#ff852a ;
+}
+
+.con_2{
+	margin-top: 1rem;
+	width: 90%;
+	height: 14.65rem;
+	border-radius: 1rem;
+	background-color: white;
+	margin-bottom: 5rem;
+}
+.btop{
+	height: 2.714rem;
+	width: 100%;
+	border-bottom: 1px solid grey;
+	line-height: 2.714rem ;
+}
+.btop .btop_1{
+	float: left;
+	margin-left: 1rem;
+	font-size: 1.2rem;
+	font-weight: 700;
+}
+.btop .btop_2{
+	float: right;
+	margin-right: 1rem;
+}
+.bdown{
+	height: 6rem;
+	width: 100%;
+}
+.bdown_1{
+	height: 3rem;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+	font-size: 1.2rem;
+	margin-top: 1rem;
+}
+.bdown_text{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.bdown_text img{
+	width: 2.5rem;
+	height: 2.5rem;
+}
+.bdown_2{
+	margin-top: 3rem;
+	height: 3rem;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+	font-size: 1.2rem;
+}
+.bdown_text{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.bdown_text img{
+	width: 2.5rem;
+	height: 2.5rem;
+}

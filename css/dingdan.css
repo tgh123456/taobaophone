@@ -1,0 +1,403 @@
+html{
+    font-size:10px;
+   
+}
+@media only screen and (min-width: 371px){
+    html {font-size: 12px !important;}
+  }
+@media only screen and (min-width: 401px){
+  html {font-size: 13px !important;}
+}
+@media only screen and (min-width: 428px){
+  html {font-size: 14px !important;}
+}
+@media only screen and (min-width: 481px){
+  html {font-size: 15px !important;}
+}
+@media only screen and (min-width: 569px){
+  html {font-size: 16px !important;}
+}
+div{
+	border: none;
+}
+/* 网页顶部 */
+header{
+	width: 100%;
+	height: 2.86rem;
+	display: flex;
+	justify-content: space-around;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: white;
+}
+header ul{
+	width: 100%;
+	height: 2.86rem;
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+	
+}
+header li{
+	list-style: none;
+	width: 5.36rem;
+	height: auto;
+	line-height: 2.86rem;
+}
+header li>div{
+	width: auto;
+	height: auto;
+}
+header li>div.quan{
+	border-bottom: 2px solid #ff852a;
+}
+/* 网页内容 */
+.section1{
+	margin-top: 2.86rem;
+	margin-bottom: 4.3rem;
+	width: 100%;
+	background-color: #F6F5F4;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.con_1{
+	margin-top: 1rem;
+	width: 90%;
+	height: 4rem;
+	background-color: white;
+	border-radius: 1rem;
+}
+#ss1{
+	width: 18rem;
+	height: 1.9rem;
+	border: 1px solid grey;
+	border-radius: 1rem;
+	margin-top: 1rem;
+	
+}
+#bt1{
+	margin-left: 1rem;
+	width: 5.36rem;
+	height: 1.9rem;
+	border-radius: 1rem;
+	background-color: red;
+	margin-top: 1rem;
+	color: white;
+}
+.con_2{
+	margin-top: 1rem;
+	width: 90%;
+	height: 20.35rem;
+	background-color: white;
+	border-radius: 1rem;
+}
+.con_2_top{
+	height: 3.36rem;
+	width: 100%;
+	align-items: center;
+	line-height: 3.36rem;
+}
+a{
+	display: block;
+}
+.a1{
+	color: black;
+}
+.con_2_con{
+	height: 7.86rem;
+	width: 100%;
+}
+.con_2_con .lefta{
+	float: left;
+	margin-left: 1rem;
+	width: 6.43rem;
+	height: 6.43rem;
+}
+#sp1{
+	width: 6.43rem;
+	height: 6.43rem;
+}
+.con_2_con .righta{
+	float: left;
+	margin-left: 1rem;
+	width: 16rem;
+	height: 5.14rem;
+	font-size: 0.9rem;
+}
+.con_2_con .righta .topb{
+	width: 100%;
+	height: 2rem;
+}
+.con_2_con .righta .top_1{
+	float: left;
+	width: 12.14rem;
+	height: 2rem;
+}
+.con_2_con .righta .top_2{
+	float: left;
+	width: 2.93rem;
+	height: 2rem;
+}
+.con_2_con .righta .downb{
+	width: 100%;
+	height: 2rem;
+	margin-top: .5rem;
+}
+.con_2_con2{
+	width: 100%;
+	height: 5.5rem;
+}
+.con_2_con2 .conn_1{
+	width: 100%;
+	height: 5.5rem;
+}
+.con_2_con2 .conn_1 .conn_1_1{
+	width: 100%;
+	height: 2.5rem;
+	text-align: center;
+}
+.con_2_con2 .conn_1 .conn_1_2{
+	width: 100%;
+	height: 3.72rem;
+	text-align: right ;
+}
+.con_2_down{
+	width: 100%;
+	height: 3.58rem;
+	text-align: center;
+}
+.con_2_down span{
+	width: 4.29rem;
+	height: 2rem;
+	text-align: center;
+}
+.con_2_down button{
+	margin-left: 1rem;
+	width: 5.71rem;
+	height: 2rem;
+	text-align: center;
+	border-radius: 1rem;
+	background-color: transparent;
+	border: 1px solid gray;
+	margin-top: 1rem;
+}
+#btn2,#btn3{
+	border: 1px solid red;
+	color: red;
+}
+
+
+.con_3{
+	margin-top: 1rem;
+	width: 90%;
+	height: 20.35rem;
+	background-color: white;
+	border-radius: 1rem;
+}
+.con_3_top{
+	height: 3.36rem;
+	width: 100%;
+	align-items: center;
+	line-height: 3.36rem;
+}
+
+.con_3_con{
+	height: 7.86rem;
+	width: 100%;
+}
+.con_3_con .lefta{
+	float: left;
+	margin-left: 1rem;
+	width: 6.43rem;
+	height: 6.43rem;
+}
+#sp1{
+	width: 6.43rem;
+	height: 6.43rem;
+}
+.con_3_con .righta{
+	float: left;
+	margin-left: 1rem;
+	width: 16rem;
+	height: 5.14rem;
+	font-size: 0.9rem;
+}
+.con_3_con .righta .topb{
+	width: 100%;
+	height: 2rem;
+}
+.con_3_con .righta .top_1{
+	float: left;
+	width: 12.14rem;
+	height: 2rem;
+}
+.con_3_con .righta .top_2{
+	float: left;
+	width: 2.93rem;
+	height: 2rem;
+}
+.con_3_con .righta .downb{
+	width: 100%;
+	height: 2rem;
+	margin-top: .5rem;
+}
+.con_3_con2{
+	width: 100%;
+	height: 5.5rem;
+}
+.con_3_con2 .conn_1{
+	width: 100%;
+	height: 5.5rem;
+}
+.con_3_con2 .conn_1 .conn_1_1{
+	width: 100%;
+	height: 2.5rem;
+	text-align: center;
+}
+.con_3_con2 .conn_1 .conn_1_2{
+	width: 100%;
+	height: 3.72rem;
+	text-align: right ;
+}
+.con_3_down{
+	width: 100%;
+	height: 3.58rem;
+	text-align: center;
+}
+.con_3_down span{
+	width: 4.29rem;
+	height: 2rem;
+	text-align: center;
+}
+.con_3_down button{
+	margin-left: 1rem;
+	width: 5.71rem;
+	height: 2rem;
+	text-align: center;
+	border-radius: 1rem;
+	background-color: transparent;
+	border: 1px solid gray;
+	margin-top: 1rem;
+}
+
+
+.p1{
+	color: grey;
+}
+.p2{
+	color: red;
+}
+.tianmao1{
+	float: left;
+	margin-left: 1rem;
+	margin-top: 1rem;
+	width: 1.2rem;
+	height: 1.2rem;
+}
+.dm{
+	float: left;
+}
+.jy{
+	float: right;
+	color: red;
+	margin-right: 1rem;
+}
+/* 二 */
+.section2{
+	margin-top: 2.86rem;
+	margin-bottom: 4.3rem;
+	width: 100%;
+	height: 40rem;
+	background-color: #F6F5F4;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;	
+}
+
+.section2 .con_1{
+	margin-top: -1rem;
+	width: 25rem;
+	height: 4rem;
+	background-color: white;
+	border-radius: 1rem;
+}
+#ss2{
+	width: 18rem;
+	height: 1.9rem;
+	border: 1px solid grey;
+	border-radius: 1rem;
+	margin-top: 1rem;
+	
+}
+#bt2{
+	margin-left: 1rem;
+	width: 5.36rem;
+	height: 1.9rem;
+	border-radius: 1rem;
+	background-color: red;
+	margin-top: 1rem;
+	color: white;
+}
+
+.section2 .con_2{
+	height: 32rem;
+	text-align: center;
+	width: 100%;
+	background-color:#F6F5F4 ;
+}
+#img1{
+	margin-top: 7rem;
+	width: 10rem;
+	height: 10rem;
+}
+.p3{
+	font-size: 1.4rem;
+	margin-top: 1rem;
+}
+.p4{
+	margin-top: 1rem;
+	color: gray;
+}
+.btn1{
+	width: 7rem;
+	height: 2.29rem;
+	margin-top: 1rem;
+	background-color: orange;
+	color: white;
+	border-radius: 1rem;
+}
+
+
+/*网页导航*/
+nav{
+	position:fixed;
+	bottom:0;
+	left:0;
+	width:100%;
+	height:4.3rem;
+	border-top:1px solid gray;
+	background: white;
+	display: flex;
+	justify-content: space-around;
+	font-size: 1.2rem;
+}
+.nav-item{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.nav-item span{
+	font-size: 1.7rem;
+}
+@media screen and (width:375px){
+	.nav-item{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+}

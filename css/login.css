@@ -1,0 +1,106 @@
+html{
+    font-size:10px;
+   
+}
+@media only screen and (min-width: 371px){
+    html {font-size: 12px !important;}
+  }
+@media only screen and (min-width: 401px){
+  html {font-size: 13px !important;}
+}
+@media only screen and (min-width: 428px){
+  html {font-size: 14px !important;}
+}
+@media only screen and (min-width: 481px){
+  html {font-size: 15px !important;}
+}
+@media only screen and (min-width: 569px){
+  html {font-size: 16px !important;}
+}
+*{
+	padding: 0;
+	margin: 0 auto;
+}
+div{
+	/*border: 1px solid red;*/
+}
+.container{
+	width: 100%;
+}
+.topa{
+	width: 100%;
+	height: 5.2rem;
+	margin-top: -0.5rem;
+	background: #EEEEEE;
+}
+.top1{
+	width: 90%;
+	height: 4rem;
+	margin-top: 0.5rem;
+	display: flex;
+	line-height: 4rem;
+	font-size: 1.6rem;
+}
+.center{
+	width: 100%;
+	height: 34.1rem;
+}
+.login{
+	width: 90%;
+	height: 100%;
+}
+form{
+	width: 100%;
+	height: 100%;
+}
+.logo{
+	width: 100%;
+	height: 8rem;
+	text-align: center;
+}
+.logo>img{
+	width: 8rem;
+	height: 8rem;
+}
+.hx{
+	width: 100%;
+	height: 25.9rem;
+	font-size: 1.6rem;
+}
+.shouji{
+	width: 100%;
+	height: 2.65rem;
+	border-bottom: 1px solid #FFAB84;
+	margin-top: 2rem;
+}
+.hx>div>input{
+	width: 100%;
+	height: 100%s;
+}
+.mima{
+	width: 100%;
+	height: 2.65rem;
+	border-bottom: 1px solid #FFAB84;
+	margin-top: 2rem;
+}
+.dx{
+	width: 100%;
+	height: 3rem;
+	margin-top: 2rem;
+	display: flex;
+}
+.dl{
+	width: 100%;
+	height: 4.5rem;
+	border-radius: 15px;
+	background: -webkit-gradient(linear, 0% 0%, 80% 100%, from(#FF8300), to(#FF5200));
+	margin-top: 2rem;
+}
+.dl>input{
+	width: 100%;
+	height: 100%;
+	background: none;
+	color: white;
+	font-size: 1.6rem;
+	
+}
